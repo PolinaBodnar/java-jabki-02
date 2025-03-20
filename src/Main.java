@@ -47,13 +47,14 @@ public class Main {
         System.out.println("Привет, я " + name + "! Мне " + age + " лет.");
         System.out.printf("Привет, я %s! Мне %s лет.", name, age);
 
-        int oddNumber = 2;
+        int oddNumber = 4;
         System.out.println();
         System.out.printf("Число четное? %s", oddNumber % 2 == 0);
 
         System.out.println();
-        System.out.println("    *    ");
-        System.out.println("  * * *  ");
-        System.out.println("* * * * *");
+        System.out.println("     *    ");
+        System.out.println("   * * *  ");
+        System.out.println(" * * * * *");
+        System.out.println("* * * * * *");
     }
 }
