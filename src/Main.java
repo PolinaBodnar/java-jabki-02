@@ -5,6 +5,8 @@ public class Main {
         int age = 12;
         double wallet = 10.40;
         char grade = 'A';
+        double averageScore = 4.8; // Средний балл
+        boolean isExcellent = averageScore >= 4.5; // Отличник или нет
 
         //2
 
@@ -12,6 +14,8 @@ public class Main {
         System.out.println(name);
         System.out.println(name.length());System.out.println(name.toUpperCase());
         System.out.println(name.charAt(1));
+        System.out.println("Средний балл: " + averageScore);
+        System.out.println("Отличник: " + isExcellent);
 
         // 3
         System.out.println(10 + 15);
