@@ -4,7 +4,6 @@ public class Main {
         //1
         int age = 12;
         double wallet = 10.40;
-        boolean isShoolboy = true;
         char grade = 'A';
 
         //2
@@ -40,16 +39,12 @@ public class Main {
         System.out.println(!((2 + 2) == 4) || true); // false || true -> true
 
         // 6
-        /**
-         * привет
-         * привет
-         */
         System.out.println("Привет, я " + name + "! Мне " + age + " лет.");
         System.out.printf("Привет, я %s! Мне %s лет.", name, age);
 
         int oddNumber = 4;
         System.out.println();
-        System.out.printf("Число четное? %s", oddNumber % 2 == 0);
+        System.out.printf("Число четное? %s", true);
 
         System.out.println();
         System.out.println("     *    ");
