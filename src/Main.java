@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         //1
-        int age = 12;
+        int age = 14;
         double wallet = 10.40;
         char grade = 'A';
         double averageScore = 4.8; // Средний балл
@@ -11,7 +11,7 @@ public class Main {
 
         //2
 
-        String name = "Иванов Иван";
+        String name = "Александр Невский";
         System.out.println(name);
         System.out.println(name.length());System.out.println(name.toUpperCase());
         System.out.println(name.charAt(1));
