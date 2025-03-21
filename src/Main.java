@@ -7,6 +7,7 @@ public class Main {
         char grade = 'A';
         double averageScore = 4.8; // Средний балл
         boolean isExcellent = averageScore >= 4.5; // Отличник или нет
+        boolean likesMath = true; // Любит ли ученик математику?
 
         //2
 
@@ -16,6 +17,7 @@ public class Main {
         System.out.println(name.charAt(1));
         System.out.println("Средний балл: " + averageScore);
         System.out.println("Отличник: " + isExcellent);
+        System.out.println("Любит математику: " + (likesMath ? "Да" : "Нет"));
 
         // 3
         System.out.println(10 + 15);
