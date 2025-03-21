@@ -1,3 +1,5 @@
+import java.io.PrintStream;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -14,7 +16,7 @@ public class Main {
 
         // 4. Проверка, является ли год високосным
         int year = 2024;
-        System.out.println("Год " + year + " является високосным: " + isLeapYear(year));
+        System.out.printf("Год %d является високосным: %b\n", year, isLeapYear(year));
 
         // 5. Калькулятор ИМТ
         double weight = 70; // кг
@@ -44,7 +46,7 @@ public class Main {
 
     // 2. Перевод температуры из Цельсия в Фаренгейты
     public static double celsiusToFahrenheit(double celsius) {
-        return (celsius * 9/5) + 32;
+        return (celsius * 9 / 5) + 32;
     }
 
     // 3. Проверка равенства длины строк
@@ -131,11 +133,11 @@ public class Main {
     // 10. Вывод смайлика
     public static void printSmiley() {
         System.out.println("     *****   ");
-        System.out.println("  *  -   -  * ");
-        System.out.println(" *   O   O   * ");
-        System.out.println(" *     J     * ");
-        System.out.println(" *  '-----'  * ");
-        System.out.println("  *         *  ");
-        System.out.println("    *******  ");
+        System.out.println("   *  O O  * ");
+        System.out.println("  *         * ");
+        System.out.println(" *     ~     * ");
+        System.out.println("  *  '---'  * ");
+        System.out.println("   *       *  ");
+        System.out.println("     *****   ");
     }
 }
